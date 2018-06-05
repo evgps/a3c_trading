@@ -1,7 +1,7 @@
 # A3C trading
 Trading with recurrent actor-critic reinforcement learning
 
-[Full_UML](supply_materials/Full_UML.png)
+[Full_UML](https://github.com/evgps/a3c_trading/blob/master/supply_materials/Full_UML.png)
 
 ## Configuration: `config.py`
 This file contains all the pathes and gloabal variables to be set up
