@@ -29,11 +29,13 @@ import matplotlib
 matplotlib.rcParams.update({'font.size': 21})
 from configs import postfix, test_postfix, load_model, LR, dep, test_postfix_real, postfix_real
 
+data_dir_path = '/mnt/a3c_data/'
+
 # data
-print('data/'+str(test_postfix))
-R = pd.read_pickle('data/'+str(test_postfix))
+print(data_dir_path+str(test_postfix))
+R = pd.read_pickle(data_dir_path+str(test_postfix))
 R = R[False==R.index.duplicated()]
-test_R = pd.read_pickle('data/'+str(test_postfix_real))
+test_R = pd.read_pickle(data_dir_path+str(test_postfix_real))
 test_R = test_R[False==test_R.index.duplicated()]
 # print (R.mean()[0], R.max()[0], (R.max()[0] - R.min()[0]), (R.max()[0] - R.mean()[0])/(R.max()[0] - R.min()[0]), (R.min()[0] - R.mean()[0])/(R.max()[0] - R.min()[0]))
 R = (R - R.mean()) / (R.max() - R.min())
@@ -185,13 +187,12 @@ for i in range(2):
     
     
     
-    
 
 # data
-R = pd.read_pickle('data/'+str(postfix))
+R = pd.read_pickle(data_dir_path+str(postfix))
 R = R[False==R.index.duplicated()]
 
-test_R = pd.read_pickle('data/'+str(postfix_real))
+test_R = pd.read_pickle(data_dir_path+str(postfix_real))
 test_R = test_R[False==test_R.index.duplicated()]
 # print (R.mean()[0], R.max()[0], (R.max()[0] - R.min()[0]), (R.max()[0] - R.mean()[0])/(R.max()[0] - R.min()[0]), (R.min()[0] - R.mean()[0])/(R.max()[0] - R.min()[0]))
 R = (R - R.mean()) / (R.max() - R.min())
