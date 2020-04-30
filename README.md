@@ -1,5 +1,5 @@
 # A3C trading
-Trading with recurrent actor-critic reinforcement learning - check [paper](https://arxiv.org/abs/2002.11523)
+Trading with recurrent actor-critic reinforcement learning - check [paper](https://arxiv.org/abs/2002.11523) and more detailed old [report](https://drive.google.com/file/d/1PK7a8pfZGrQs6WfVO-kNdgNOfvkdi5CW/view?usp=sharing)
 
 ![Full_UML](supply_materials/Full_UML.png)
 
