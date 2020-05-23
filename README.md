@@ -1,4 +1,6 @@
 # A3C trading
+*Note: Sorry for misleading naming - please use A3C_trading.py for training and test_trading.py for testing.*
+
 Trading with recurrent actor-critic reinforcement learning - check [paper](https://arxiv.org/abs/2002.11523) and more detailed old [report](https://drive.google.com/file/d/1PK7a8pfZGrQs6WfVO-kNdgNOfvkdi5CW/view?usp=sharing)
 
 ![Full_UML](supply_materials/Full_UML.png)
