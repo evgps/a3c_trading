@@ -8,7 +8,7 @@ Trading with recurrent actor-critic reinforcement learning - check [paper](https
 ## Configuration: `config.py`
 This file contains all the pathes and gloabal variables to be set up
 
-## Dataset: download from [GDrive](https://drive.google.com/folderview?id=0B0ozwxwZOzYLM0F0V3ljRTFfd0U&resourcekey=0-sLWkRHTSJKx_4-IHYvQslA)
+## Dataset: download from [GDrive](https://drive.google.com/drive/folders/1T2Xj2N0UrZ2ZtHAI8eRAFdz23hGRm5I3?usp=sharing)
 After setting `config.py` please run this file to download and preprocess the data need for training and evaluation
 
 ## Environment: `trader_gym.py`
